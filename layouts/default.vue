@@ -8,7 +8,9 @@
 
 <script>
 export default {
-
+  middleware () {
+    console.log('Layout middleware')
+  }
 }
 </script>
 
